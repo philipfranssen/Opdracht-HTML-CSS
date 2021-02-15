@@ -1,0 +1,527 @@
+/* font size */
+
+/* hamburger */
+
+/* alt  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(255, 251, 208);
+}
+
+body section {
+  margin-bottom: 3.8rem;
+  padding-bottom: 2.3rem;
+}
+
+.header {
+  font-weight: 600;
+}
+
+.small-header {
+  z-index: 1;
+  position: fixed;
+  top: 0rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  background-color: coral;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.company__name {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.logo {
+  height: 1.5rem;
+}
+
+.intro {
+  padding-top: 5.3rem;
+  background-color: white;
+}
+
+.article {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 0.9rem;
+}
+
+.description {
+  font-size: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.home {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: coral;
+  text-decoration: none;
+}
+
+.intro__image {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.small-nav {
+  display: none;
+  flex-direction: column;
+  background-color: black;
+  padding: 0.5rem;
+  position: relative;
+  top: 5.3rem;
+  right: 0rem;
+}
+
+.small-nav a {
+  font-size: 0.6rem;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 2rem;
+}
+
+.hamburger {
+  background-color: coral;
+  border: none;
+}
+
+.hamburger:hover .bars {
+  background-color: gray;
+}
+
+.bars {
+  height: 0.3rem;
+  width: 1.4rem;
+  background-color: white;
+  margin-bottom: 0.2rem;
+  border-radius: 1.5rem;
+  padding: 0;
+}
+
+.offer__article {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.offer__image-1 {
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  filter: blur(1px);
+}
+
+.offer__image-2 {
+  width: 90%;
+  align-self: flex-end;
+}
+
+.health {
+  background-image: url("images/pattern.jpg");
+  background-position: center;
+  background-size: contain;
+  padding-top: 1.5rem;
+  background-color: coral;
+  padding-bottom: 1.7rem;
+}
+
+.health__title {
+  font-size: 1rem;
+  color: white;
+}
+
+.health__description {
+  color: white;
+  margin-bottom: 2.3rem;
+}
+
+.health__image {
+  max-width: 60%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.halloween {
+  background-color: rgb(255, 251, 208);
+}
+
+.halloween__cards {
+  max-width: 16rem;
+  height: 18rem;
+  border: solid coral 0.3rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  background-color: white;
+  overflow: hidden;
+}
+
+.halloween__image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.halloween__customized {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+  margin: 0.2rem 0rem 0.5rem 0rem;
+}
+
+.halloween__customized:hover {
+  color: coral;
+}
+
+.halloween__price {
+  color: gray;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.satisfaction__review {
+  max-width: 15rem;
+  height: 15rem;
+  margin-bottom: 2.3rem;
+  font-weight: 800;
+  border-bottom: solid gray 0.05rem;
+}
+
+.satisfaction__image {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  padding: 0.8rem 0.8rem 0.2rem 0.3rem;
+  background-color: coral;
+}
+
+.satisfaction__quote {
+  font-size: 0.8rem;
+}
+
+.satisfaction__button {
+  font-size: 0.6rem;
+  margin: 0.8rem auto auto auto;
+  padding: 0.2rem 0rem;
+  width: 6rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: coral;
+  color: white;
+}
+
+.satisfaction__button:hover {
+  color: white;
+  background-color: gray;
+}
+
+.satisfaction__review p:only-of-type {
+  margin-top: 0.8rem;
+}
+
+footer {
+  background-color: white;
+  color: gray;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__wrapper {
+  width: 100%;
+  background-color: coral;
+  color: white;
+  padding: 1.5rem 0rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer__form {
+  width: 80%;
+  margin: auto;
+}
+
+.form__required {
+  font-size: 0.5rem;
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8rem;
+  font-size: 0.6rem;
+}
+
+input {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+.form__name,
+.form__email,
+.form__subject {
+  height: 1.5rem;
+}
+
+.form__message {
+  height: 5rem;
+}
+
+.form input:last-of-type {
+  height: 6rem;
+}
+
+.form__button {
+  display: flex;
+  background-color: white;
+  font-size: 0.7rem;
+  justify-content: center;
+  color: gray;
+  font-weight: 600;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 0.4rem;
+  width: 8rem;
+  margin: auto;
+}
+
+.form__button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.footer__company {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  width: 17.3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  font-size: 0.6rem;
+  color: gray;
+  padding-bottom: 0.4rem;
+  border-bottom: solid gray 0.05rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer__nav a:hover {
+  color: coral;
+}
+
+.footer__find-us {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.footer__social-media {
+  color: gray;
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+.footer__social-media a:hover {
+  color: coral;
+}
+
+.social-media__where-to-find {
+  margin-bottom: 0.8rem;
+}
+
+.fa {
+  background-color: gray;
+  color: white;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-decoration: none;
+  border-radius: 50%;
+  padding-top: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+@media screen and (min-width: 601px) {
+  .intro {
+    margin-top: 3rem;
+  }
+
+  body section {
+    margin-bottom: 5rem;
+    padding-bottom: 4rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .small-nav {
+    display: flex;
+    flex-direction: row;
+    position: unset;
+    background-color: coral;
+    height: 2rem;
+  }
+
+  .small-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    padding-right: 1rem;
+    font-weight: lighter;
+  }
+
+  .small-nav a:hover {
+    color: gray;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .home {
+    font-size: 1rem;
+  }
+
+  .article {
+    width: 90%;
+  }
+
+  .halloween__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+
+  .satisfaction__review {
+    height: 18rem;
+  }
+
+  .satisfaction__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 1rem;
+  }
+
+  .footer__form {
+    width: 30rem;
+  }
+
+  .offer__article {
+    width: 80%;
+    margin: auto;
+  }
+
+  .offer__image-1 {
+    left: -20%;
+  }
+
+  .health__image {
+    width: 21rem;
+  }
+
+  label {
+    font-size: 0.8rem;
+  }
+
+  .form__required {
+    font-size: 0.7rem;
+  }
+
+  .footer__find-us {
+    width: 30rem;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .company__name {
+    font-size: 1rem;
+  }
+
+  .small-nav a {
+    font-size: 0.9rem;
+    padding-right: 2rem;
+  }
+
+  .satisfaction__grid {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .halloween__grid {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .halloween__cards {
+    width: 15rem;
+    height: 20rem;
+    padding-bottom: 1rem;
+  }
+
+  .satisfaction__review {
+    width: 15rem;
+  }
+
+  body {
+    width: 1200px;
+    margin: auto;
+  }
+
+  .small-header {
+    width: 1200px;
+  }
+}
